@@ -6,6 +6,8 @@ from pymongo import MongoClient, errors
 from main import app
 
 # Oculta os ResourceWarnings (ex: conexões Mongo não fechadas)
+
+# antes de mais nada use o Pip install -r requirements.txt para trazer todas as bibliotecas importadas no sistema
 warnings.simplefilter("ignore", ResourceWarning)
 
 # Configuração de logging
