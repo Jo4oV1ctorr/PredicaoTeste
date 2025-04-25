@@ -30,21 +30,7 @@ Como rodar os testes
 ``
 python test_main.py `` ou ``python -m unittest test_main.py -v``
 
-Você verá uma saída semelhante a esta no terminal:
-
-✅ Rota '/' respondeu com 200 OK.
-✅ Rota '/dashboard' respondeu com 200.
-✅ Rota '/predict' com dados válidos funcionou corretamente.
-✅ Rota '/predict' respondeu corretamente com erro para dados inválidos.
-✅ Rota '/dashboard_data' respondeu com dados esperados.
-❌ Falha simulada na conexão com o MongoDB ocorreu como esperado.
-.
-----------------------------------------------------------------------
-Ran 6 tests in 0.XXXs
-
-OK
-
-Pré-requisitos
+Visualizando a documentação listada abaixo você verá os resultados que irá ser exibidos 
 
 Certifique-se de ter o Python instalado (versão 3.8 ou superior recomendada) e que você já tenha a aplicação main.py no mesmo diretório dos testes.
 
